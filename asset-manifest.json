@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/MoviesAndTvShows_-React-/static/css/main.e313cda7.css",
+    "main.js": "/MoviesAndTvShows_-React-/static/js/main.32d2a808.js",
+    "static/media/NoImage.jpg": "/MoviesAndTvShows_-React-/static/media/NoImage.5882c20d3ddf67c36e30.jpg",
+    "index.html": "/MoviesAndTvShows_-React-/index.html",
+    "main.e313cda7.css.map": "/MoviesAndTvShows_-React-/static/css/main.e313cda7.css.map",
+    "main.32d2a808.js.map": "/MoviesAndTvShows_-React-/static/js/main.32d2a808.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e313cda7.css",
+    "static/js/main.32d2a808.js"
+  ]
+}
