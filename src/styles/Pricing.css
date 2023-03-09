@@ -1,6 +1,6 @@
 .background-Color-Main{
     width: 100vw;
-    height: 91vh;
+    height: 93vh;
     background-color: #0c1e25;
     padding-top: 20px;
     display: flex;
@@ -9,7 +9,7 @@
 }
 .background-Color-secondary{
     width: 100vw;
-    height: 91vh;
+    height: 93vh;
     background-color: #fff;
     padding-top: 20px;
     display: flex;
@@ -21,8 +21,10 @@
     color: #fff;
 }
 .Pricing-option1, .Pricing-option2, .Pricing-option3{
+    position: absolute;
+    top: -30px;
     width: 30vw;
-    height: 77vh;
+    height: 84vh;
     background-color: #000d13;
     margin-right: 20px;
     border-radius: 16px;
@@ -34,9 +36,11 @@
     transform: scale(1.04);
 }
 .light-Theme1, .light-Theme2, .light-Theme3{
+    position: absolute;
+    top: -30px;
     width: 30vw;
-    height: 77vh;
-    background-color: #336660;
+    height: 84vh;
+    background-color: #000d13;
     margin-right: 20px;
     border-radius: 16px;
     position: relative;
@@ -59,31 +63,31 @@
     flex-direction: row;
 }
 .light-Theme1 h3, .light-Theme2 h3, .light-Theme3 h3{
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     display: flex;
     justify-content: center;
     color: #fff;
 }
 .Pricing-option1 h2, .Pricing-option2 h2, .Pricing-option3 h2{
-    font-size: 3rem;
-    margin-bottom: 12px;
+    font-size: 2.3rem;
+    margin-bottom: 1px;
     display: flex;
     justify-content: center;
 }
 .light-Theme1 h2, .light-Theme2 h2, .light-Theme3 h2{
     color: #ff206e;
-    font-size: 3rem;
-    margin-bottom: 12px;
+    font-size: 2.3rem;
+    margin-bottom: 1px;
     display: flex;
     justify-content: center;
 }
 .Pricing-option1 span, .Pricing-option2 span, .Pricing-option3 span{
     display: flex;
     font-size: 1.3rem;
-    margin-left: 80px;
+    margin-left: 30px;
     margin-bottom: 15px;
     font-weight: 300px;
-    line-height: 1.6;
+    line-height: 1.3;
 }
 #MonthlyYearly{
     font-size: 1.4rem;
@@ -97,12 +101,12 @@
     color: #fff;
 }
 #checkmark{
-    margin-right: 9px;
+    margin-right: 20px;
 }
 button{
-    width: 400px;
+    left:15%;
+    width: 300px;
     height: 6vh;
-    margin-left: 80px;
     border: none;
     border-radius: 7px;
     background-color: #659664;
@@ -120,7 +124,8 @@ button:hover{
     margin-top: 98px;
 }
 #button2{
-    margin-top: 55px;
+    position: absolute;
+    bottom: 65px;
 }
 #button3{
     margin-top: 12px;

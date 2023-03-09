@@ -2,9 +2,8 @@ body{
     overflow-x: hidden;
 }
 .movies-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 .mainBgColor{
     background-color:#0c1e25;
@@ -15,8 +14,8 @@ body{
     width: 100%;
 }
 .movies-container img{
-    width: 350px;
-    height: 550px;
+    width: 300px;
+    height: 500px;
     margin: 25px 0px 4px 15px;
     border-radius: 18px;
 }
@@ -65,8 +64,8 @@ body{
 }
 #Exit1{
     position: fixed;
-    right: 380px;
-    top: 100px;
+    right: 230px;
+    top: 30px;
     z-index: 999;
     background-color: #000;
     border-radius: 50%;

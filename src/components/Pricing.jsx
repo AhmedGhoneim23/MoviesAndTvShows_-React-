@@ -50,7 +50,6 @@ function Pricing() {
             <span><FcCheckmark fontSize={25} id='checkmark' /> Watch On Mobile Phones And Tablets </span>
             <span><FcCheckmark fontSize={25} id='checkmark' /> Cancel At Anytime</span>
             <span><FcCheckmark fontSize={25} id='checkmark' /> First Month Completely Free</span>
-            <span><FcCheckmark fontSize={25} id='checkmark' /> HD Available</span>
             <button id='button2'>Buy Now</button>
             <div id="darktheme">
               <div className="Pricing-yearly-darktheme"  onClick={() => {
@@ -74,7 +73,6 @@ function Pricing() {
             <span><FcCheckmark fontSize={25} id='checkmark' /> Watch On Mobile Phones And Tablets </span>
             <span><FcCheckmark fontSize={25} id='checkmark' /> Cancel At Anytime</span>
             <span><FcCheckmark fontSize={25} id='checkmark' /> First Month Completely Free</span>
-            <span><FcCheckmark fontSize={25} id='checkmark' /> HD Available</span>
             <span><FcCheckmark fontSize={25} id='checkmark' /> Ultra HD</span>
             <button id='button3'>Buy Now</button>
             <div id="darktheme">

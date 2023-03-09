@@ -1,6 +1,7 @@
 .player{
     position: fixed;
-    margin-top: 55px;
+    top: 50px;
+    left: 15%;
     z-index:999;
 }
 .Container{
@@ -16,6 +17,7 @@
     top: -80px;
     font-size: 2.5rem;
     color: #EE9B00;
+    background-color: #000;
 }
 #TrailerMovie-name-light{
     display: flex;
@@ -24,5 +26,6 @@
     position: absolute;
     top: -80px;
     font-size: 2.5rem;
-    color: #8d1025;
+    color: #ee0e59;
+    background-color: #000;
 }
